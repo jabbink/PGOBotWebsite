@@ -340,6 +340,17 @@ core-menu > paper-item.core-selected {
     background: #ff5252 !important;
     color: white;
 }
+.border-side-purple {
+    border: 1px dashed;
+    border-left: 7px solid;
+    border-color: #8B008B;
+    color: #8B008B;
+    transition: background 0.3s, color 0.3s;
+}
+.border-side-purple:hover {
+  background: #8B008B !important;
+  color: white;
+}
 .border-side-white {
     border: 1px dashed;
     border-left: 7px solid;
