@@ -2059,7 +2059,7 @@ img.responsive-img, video.responsive-video {
   float: left;
   font-size: 1.2rem;
   padding: 0 10px;
-  line-height: 30px; 
+  line-height: 30px;
   border-radius: 2px;
   text-align: center; }
   .pagination li a {
@@ -5939,7 +5939,7 @@ button.btn-floating {
   .waves-effect.waves-purple .waves-ripple {
     background-color: rgba(156, 39, 176, 0.7); }
   .waves-effect.waves-green .waves-ripple {
-    background-color: rgba(76, 175, 80, 0.7); }
+    background-color: #FF00FF }
   .waves-effect.waves-teal .waves-ripple {
     background-color: rgba(0, 150, 136, 0.7); }
 

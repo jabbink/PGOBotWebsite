@@ -5,7 +5,7 @@ body{
 }
 
 section{
-    margin: 0px 0px 0px 0px !important; 
+    margin: 0px 0px 0px 0px !important;
     padding: 0px 0px 0px 0px !important;
 }
 #particles-js {
@@ -15,7 +15,7 @@ section{
     /* position */
     position: fixed !important;
     top: 0px !important;
-    left: 0px !important;    
+    left: 0px !important;
     z-index: 1 !important;
 }
 
@@ -45,17 +45,17 @@ p {
     text-align: center;
     align-content: center;
     align-items: center;
-    align-self: center;    
+    align-self: center;
 }
 
 .make-thick {
-    
+
     font-weight: 600;
     font-size: 10em;
-    
+
 }
 .roboto-200{
-    
+
     font-weight: 200;
 }
 
@@ -65,17 +65,17 @@ p {
 }
 
 .roboto-400{
-    
+
     font-weight: 400;
 }
 
 .roboto-500{
-    
+
     font-weight: 500;
 }
 
 .roboto-700{
-    
+
     font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ p {
     font-family: "Bevan";
     src: url("http://www.hackercup.co/css/assets/font/Bevan.tff");
 }
- 
+
 #below {
     background: rgb(9,9,9);
     padding-bottom: 0px;
@@ -118,7 +118,7 @@ p {
 }
 
 #einstein-info {
-    margin-bottom: -20px;    
+    margin-bottom: -20px;
 }
 
 .pushdown-10p {
@@ -146,14 +146,14 @@ p {
     /* size */
     height: 50px;
     width: 100%;
-    /* color */    
+    /* color */
     background: rgb(120, 210, 167);
     border-bottom: solid 1px rgb(71, 188, 132);
     /* position */
     position: fixed;
     top: 0px;
     left: 0px;
-    margin-top: 0px;    
+    margin-top: 0px;
     padding-top: 0px;
     padding-left: 5%;
     line-height: 50px;
@@ -168,27 +168,27 @@ p {
     height: 40px;
     /* position */
     position: relative;
-    
+
     bottom: 0px;
     /* color */
     border-top: solid 1px rgb(71, 188, 132);
 }
 
-.img-big-hero {    
+.img-big-hero {
     width: 100%;
 }
 
-#sec-1 { 
+#sec-1 {
     padding-top: 15%;
-    padding-bottom: 15%;    
-    vertical-align: middle; 
+    padding-bottom: 15%;
+    vertical-align: middle;
     position: relative;
     z-index: 2;
 }
 #sec-2, #sec-3, #sec-4 {
     padding-top: 15%;
-    padding-bottom: 15%;    
-    vertical-align: middle; 
+    padding-bottom: 15%;
+    vertical-align: middle;
     position: relative;
     z-index: 2;
     bottom: 7px;
@@ -197,7 +197,7 @@ p {
     bottom: 0;
 }
 #sec-3 {
-    /*background: rgba(9, 15, 14, 0.95);*/    
+    /*background: rgba(9, 15, 14, 0.95);*/
     background-image: -o-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
     background-image: -moz-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
     background-image: -webkit-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
@@ -281,7 +281,7 @@ core-menu > paper-item.core-selected {
 }
 
 .pitch-purple-text {
-    color: #5D1A35 !important;    
+    color: #5D1A35 !important;
 }
 .space-blue {
     background: rgb(32,47,62);
@@ -295,8 +295,8 @@ core-menu > paper-item.core-selected {
 
 .border-black {
     border: 2px solid;
-    
-    border-color: black;    
+
+    border-color: black;
 }
 
 .cream {
@@ -311,7 +311,7 @@ core-menu > paper-item.core-selected {
 }
 .border-green {
     border: 1px solid;
-    border-color: #6ADD6C;
+    border-color: #8B008B;
 }
 .border-side {
     border: 1px dashed;
@@ -418,7 +418,7 @@ core-menu > paper-item.core-selected {
     margin: 0 !important;
 }
 .green-wine-trans {
-    background: rgba(9, 15, 14, 0.85) !important; 
+    background: rgba(9, 15, 14, 0.85) !important;
     color: white;
 }
 .green-wine {
@@ -430,7 +430,7 @@ core-menu > paper-item.core-selected {
         color: white;
     }
 .green-mint {
-    background: /*rgb(41,118,81)*/;	
+    background: /*rgb(41,118,81)*/;
     background: #2f815c !important;
 }
 .green-spot{
@@ -440,7 +440,7 @@ core-menu > paper-item.core-selected {
     color: rgb(9,15,14);
 }
 .green-mint-text {
-    color: rgb(41,118,81);	
+    color: rgb(41,118,81);
 }
 .green-spot-text {
     color: #6ADD6C;
@@ -558,8 +558,8 @@ core-menu > paper-item.core-selected {
 }
 
 #ground-inlets {
-    margin-top: -20px;    
-    vertical-align: middle; 
+    margin-top: -20px;
+    vertical-align: middle;
     position: relative;
     z-index: 2;
     bottom: 7px;

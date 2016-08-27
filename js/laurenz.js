@@ -13,7 +13,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 
 particlesJS('particles-js',
-  
+
   {
   "particles": {
     "number": {
@@ -24,13 +24,13 @@ particlesJS('particles-js',
       }
     },
     "color": {
-      "value": "#6ADD6C"
+      "value": "#FF00FF"
     },
     "shape": {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#6ADD6C"
+        "color": "#FF00FF"
       },
       "polygon": {
         "nb_sides": 5
@@ -127,40 +127,40 @@ particlesJS('particles-js',
 
 );
 
-		/*  
+		/*
 		ENTRANCES
 		*/
-		 
-	
-      
+
+
+
     $(window).scroll(function() {
               $('#bigEntrance').each(function(){
                   var imagePos = $(this).offset().top;
                   var topOfWindow = $(window).scrollTop();
-                  if (imagePos < topOfWindow+400) { 
+                  if (imagePos < topOfWindow+400) {
 				    $(this).addClass("bigEntrance");
                   }
               });
-           }); 
+           });
 $(window).scroll(
-    function() 
+    function()
     {
               $('.slideOpen').each(function()
                                    {
                   var imagePos = $(this).offset().top;
                   var topOfWindow = $(window).scrollTop();
-                  if (imagePos < topOfWindow+200) 
+                  if (imagePos < topOfWindow+200)
                   {
 				    $(this).addClass("slideOpen");
                   }
               });
     }
-); 
+);
 
 
 $(document).ready(
     function()
-    { 
+    {
         var bodyheight = $(window).height();
         $(".windowheight").css('min-height', bodyheight);
         $(window).resize(
@@ -169,6 +169,6 @@ $(document).ready(
                 $(".windowheight").css('min-height', bodyheight);
             }
         );
-        
+
     }
 );
