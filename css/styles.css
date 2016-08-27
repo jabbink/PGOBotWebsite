@@ -461,6 +461,13 @@ core-menu > paper-item.core-selected {
 .green-moss {
     background: rgb(9,15,14);
 }
+.cute-purple {
+    background: #8b008b;
+}
+
+.cute-purple-light {
+    background: #FF00FF;
+}
 .scrollable {
     overflow-y: scroll  !important;
     overflow: scroll;
